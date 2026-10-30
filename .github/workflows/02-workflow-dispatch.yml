@@ -1,0 +1,10 @@
+name: Workflow manuel
+
+on: workflow_dispatch
+
+jobs:
+  dire-bonjour:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: echo "Déclenchement manuel réussi !"

@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message
-        run: echo "Exécution planifiée !"
+        run: echo "Exécution planifiée"

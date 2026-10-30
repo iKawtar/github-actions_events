@@ -1,0 +1,10 @@
+name: Pull request
+
+on: pull_request
+
+jobs:
+  dire-bonjour:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: echo "Pull request détectée"

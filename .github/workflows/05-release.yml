@@ -1,0 +1,10 @@
+name: Release
+
+on: release
+
+jobs:
+  dire-bonjour:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: echo "Release détectée !"
